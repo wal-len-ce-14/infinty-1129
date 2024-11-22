@@ -3,20 +3,27 @@
     margin: 0; 
     padding: 0;
 }
+
 .container{
     display: flex;
     flex-direction: column;
 }
+
 .btn{
-    margin-top: 1rem;
+    margin: auto ;
+    height: 10rem;
+    width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #30b59d;
+}
+
+a{
+    
     border-radius: 10px;
     animation: hover-btn-image 0.4s ease-in-out infinite alternate;
 }
-/* #btn-img:hover{
-    
-} */
+
 #btn-img:active{
     transform: scale(0.9);
     opacity: 0.8; 
@@ -25,5 +32,4 @@
 @keyframes hover-btn-image {
     0%   {transform: scale(0.9);}
     100%   {transform: scale(1.1);}
-    /* 100%   {transform: scale(1);} */
 }
