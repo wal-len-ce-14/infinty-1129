@@ -12,10 +12,11 @@
     display: flex;
     justify-content: center;
     border-radius: 10px;
-}
-#btn-img:hover{
     animation: hover-btn-image 0.4s ease-in-out infinite alternate;
 }
+/* #btn-img:hover{
+    
+} */
 #btn-img:active{
     transform: scale(0.9);
     opacity: 0.8; 
